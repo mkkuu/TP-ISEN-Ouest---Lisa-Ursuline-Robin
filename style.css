@@ -9,13 +9,15 @@ html {
 /* =========================================
    HEADER
    ========================================= */
+/* Conteneur principal du header */
 .header-isen {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
 }
 
+/* Organisation interne */
 .header-container {
-  max-width: 1400px;
+  max-width: 1400px; /* un peu plus large pour aérer */
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -23,27 +25,29 @@ html {
   justify-content: space-between;
 }
 
+/* Logo */
 .header-logo img {
-  height: 45px;
+  height: 45px; /* logo moins haut */
   width: auto;
 }
 
+/* Navigation */
 .header-nav {
   background: #e30613; /* Rouge ISEN */
-  flex: 1;
-  margin-left: 40px;
+  flex: 1; /* occupe toute la largeur dispo */
+  margin-left: 40px; /* espace entre logo et barre rouge */
 }
 
 .header-nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; /* liens espacés sur toute la largeur */
   margin: 0;
   padding: 0;
 }
 
 .header-nav li {
-  flex: 1;
+  flex: 1; /* chaque lien occupe une largeur égale */
   text-align: center;
 }
 
